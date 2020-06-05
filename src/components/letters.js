@@ -5,7 +5,7 @@ class Letters extends Component {
         return (
             <div>
                 {Object.keys(this.props.letterStatus).map(l =>
-                    <Letter key={l} className={this.props.letterStatus[l] ? 'selected' : 'non-selected'} letter={l} />)}
+                    <Letter key={l} className={this.props.letterStatus[l] ? 'selected' : 'non-selected'} letter={l} letterClick={this.props.letterClick} />)}
             </div>
         )
     }

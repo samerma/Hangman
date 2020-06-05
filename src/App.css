@@ -4,3 +4,12 @@
 .App{
   background-color: aquamarine;
 }
+.green-score{
+  color:green
+}
+.yellow-score{
+  color:yellow
+}
+.red-score{
+  color:red
+}
